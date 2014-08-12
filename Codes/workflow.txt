@@ -1,30 +1,30 @@
 Application Initialization:
 
-1. Execute Run.exe file.
+-> 1. Execute Run.exe file.
 
-2. Run.exe will start tomcat.
+-> 2. Run.exe will start tomcat.
 
-3. Run.exe will open the home webpage in the browser.
+-> 3. Run.exe will open the home webpage in the browser.
 
-4. The JavaScript in the web browser check if the browser is supported or not.
+-> 4. The html in the web browser check if the browser is supported or not.
 
   If not supported : Unsupported Browser Error Page
   If Supported : Step 5
 
-5. The JavaScript in the home web page will redirect to index page of the application.
+-> 5. The JavaScript in the home web page will redirect to index page of the application.
 
-6. The index page requested is first validated by the validator class.
+-> 6. The index page requested is first validated by the validator class.
 
-7. the validator class will match the key in the registry with the one stored in the database.
+-> 7. the validator class will match the key in the registry with the one stored in the database.
 
   If Key does not matches: Product Licence validation failed error page
   If Key matched : Step 8
 
-8. The validator will check the licence expiration date
+-> 8. The validator will check the licence expiration date
   If date passed : Product Licence validation failed error page
   If not : Step 9
 
-9. Application welcome page.
+-> 9. Application welcome page.
 
 
 
