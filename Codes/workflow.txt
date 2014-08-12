@@ -26,6 +26,15 @@ Application Initialization:
 
 -> 9. Application welcome page.
 
+Licencing Application for the first time:
 
+-> 1. Product key is enetred by user.
+
+2. Key is matched online from the server.
+  if not matched: Wrong Product key Error Page
+  if match but already used: Product Key already in use Error
+  if matched: Step 3
+
+-> 3. Application welcome page.
 
   
