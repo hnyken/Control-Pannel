@@ -1,0 +1,17 @@
+-> add following line to apache/bin/catalina.bat
+  set "JRE_HOME=%cd%\jre"
+  
+-> Add jre folder to apache/bin
+
+-> you can store values in registry by following dos command
+
+  reg add HKCU\\Environment /v developer /d \"Honey Keny Malviya" /f"
+  
+-> create file startup.bat
+
+  echo "---- Starting PostgreSQL ----"
+  pgsql/bin/pg_ctl -D "%cd%\data\mydb\vocab" start
+  echo "---- Starting Tomcat ----"
+  apache/bin/catalina.bat start
+  
+  
